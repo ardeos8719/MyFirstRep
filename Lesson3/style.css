@@ -1,0 +1,19 @@
+.month{
+color:red;
+font-size: 50px;
+
+}
+
+.day{
+display: inline-block;
+width: 27px;
+padding: 10px 0px 10px 15px;
+
+}
+.past{
+display: inline-block;
+    width: 30px;
+    border: 1px solid black;
+    padding: 10px 0px 10px 15px;
+    margin: 0px -5px -1px 0px;
+}
