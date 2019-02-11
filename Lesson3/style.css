@@ -1,19 +1,83 @@
+/*Стиль названия месяца*/
 .month{
-color:red;
-font-size: 50px;
-
+    display: inline-block;
+    color:blue;
+    font-size: 50px;
+    text-align: center;
+    width: 320px;
 }
-
+/*Стиль дней недели*/
 .day{
-display: inline-block;
-width: 27px;
-padding: 10px 0px 10px 15px;
-
+    display: inline-block;
+    width: 27px;
+    padding: 10px 0px 10px 15px;
+    font-weight: bold;
 }
-.past{
-display: inline-block;
+/*Стиль для обычных дней*/
+.dayFeb{
+    display: inline-block;
     width: 30px;
     border: 1px solid black;
+    border-radius: 7px;
     padding: 10px 0px 10px 15px;
     margin: 0px -5px -1px 0px;
+    color: black;
+}
+/*Стиль выходных дней*/
+.output{
+    display: inline-block;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px 0px 10px 15px;
+    margin: 0px -5px -1px 0px;
+    color: red;
+    background: rgb(227, 245, 191);
+    font-weight: bold;
+}
+/*Стиль дней января и марта*/
+.march{
+    display: inline-block;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px 0px 10px 15px;
+    margin: 0px -5px -1px 0px;
+    color: rgb(199, 195, 195);
+    font-style: italic; 
+}
+/*Стиль дня недели - 12 число*/
+.data{
+    display: inline-block;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px 0px 10px 15px;
+    margin: 0px -5px -1px 0px;
+    color: red;
+    font-weight: bold;
+    background-color: rgb(238, 241, 62)
+}
+/*Стиль пунктов меню первого уровня*/
+.menu{
+    display: block;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to top, #ebfeea, #4cf136);
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*Стиль пунктов меню второго уровня*/
+.menu2{
+    display: block;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    background: linear-gradient(to top, #d4cceb, #3652f1);
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 0px 0px 30px;
 }
