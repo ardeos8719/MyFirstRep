@@ -1,0 +1,156 @@
+html{
+    font-family: Verdana, ;
+}
+
+.wrapper::before{ /* Псевдоселектор добавляет контент в начале тега*/
+    content: 'Меню'; /* Обязательный параметр*/ 
+    
+}
+
+.wrapper:after{ /* Псевдоселектор добавляет контент в конце тега*/
+    content: url('google.png');
+}
+
+ul li{
+    line-height: 30px;
+}
+
+ul li:first-child{
+    /* Псевдоселектор - выбирает первый элемент из детей тега*/
+    color: red;
+}
+
+ul li:last-child{ 
+    /* Псевдоселектор - выбирает последний элемент из детей тега*/
+color: blue;
+}
+
+ul li:nth-child(5){ 
+    /*Функция в которую передается целое значение, либо выражение.*/
+color: green
+}
+
+ul li:nth-child(odd){ 
+    /*нечетные*/
+color: blue
+}
+
+ul li:nth-child(even){ 
+    /*четные*/
+color: yellow
+}
+
+ul li:nth-child(5n){ 
+    /*каждый пятый (n - это множитель)*/
+color: green
+}
+
+ul li:nth-child(5n +1){ 
+    /*каждый пятый +1*/
+color: red
+}
+
+ul li:nth-child(5n +1){ 
+    /*каждый пятый +1*/
+color: red
+}
+
+.descr, .descr2 {
+    font-size: 20px;
+    color:red;
+}
+.descr{
+     text-decoration: underline;  /*подчеркивание+1*/ 
+     font-family: Calibri;
+     font-weight: 900;
+}
+
+.button{
+    text-decoration: none;
+    border:  1px solid black; /*граница элемента, 
+    форма записи border: ширина линии \solid - форма линии\ цвет*/
+    display: inline-block;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px; /*Скругление углов, 
+    форма записи border-radius: 10px либо border-radius: 10px 10px 5px 10px с ЛЕВОГО угла 
+    border-left*/
+    background: red;
+    color: white;
+
+}
+
+.button:hover{ /*Событие - наведение на элемент */
+    opacity: 0.7; /*прозрачность*/
+}
+
+.button:active{ /*Событие - нажатие на элемент */
+    border-left: 3px solid black;
+}
+
+.button:focus{ /*Событие - нажатие на элемент */
+    color: orange;
+}
+
+.button::first-letter{ /*Буквица*/
+    font-size: 30px;
+    font-weight: 700; /*Жирность*/
+    background: rgba(0,0,0,.7)
+}
+
+.wrapper:focus-within { /*Событие при фокусе элемента внутри блока применяет стили для этого блока*/
+    background: green
+}
+
+div.button:last-of-type{
+    background rgba (0,0,0,.7);
+}
+
+a.button:first-of-type{
+    padding: 0 30px;
+    height: 80px;
+    line-height: 80px; /*идеально делать кнопки*/
+    vertical-align:top;
+
+}
+
+a.button:first-of-type::first-letter{
+    font-size: inherit; /*заменило буквицу*/
+}
+
+.box{
+    padding: 30px!important; /*Перебивает все - <div style="1111">*/
+}
+
+body .box{
+    padding: 60px;
+}
+
+.position{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.pos-wrap{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+/*
+Приоритетность селекторов:
+* 0
+li 1
+li:first-letter 2
+ul li 2
+.class 10
+ul li.class 12
+li.class.class 21
+#box 100
+*/
+
+/*Рассмотреть дома псевдоселекторы
+попробовать варианты vertical-align*/
+
+/**/

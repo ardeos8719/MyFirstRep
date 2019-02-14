@@ -1,0 +1,144 @@
+
+
+.wrap{
+    position: relative;
+    width: 100%;
+    height: auto;   
+}
+.back{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+   
+}
+
+.wood{
+    position: absolute;
+    top: 550px;
+    right: 100px;
+    left: 200px;
+}
+.grass{
+    position: absolute;
+    top: 600px;
+    
+}
+
+.grass2{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+   
+}
+
+.flower{
+    position: absolute;
+    top: 675px;
+    right: 100px;
+    left: 100px;
+}
+
+.flower2{
+    position: absolute;
+    top: 675px;
+    right: 100px;
+    left: 10px;
+}
+
+.flower3{
+    position: absolute;
+    top: 675px;
+    right: 100px;
+    left: 190px;
+}
+
+.sun{
+    position: absolute;
+    right: 100px;
+    left: 1100px;
+}
+
+.cloud{
+    position: absolute;
+    left: 500px;
+}
+
+.cloud2:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.cloud2{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    transition: all 0.3s ease-in;
+    z-index: 20;
+}
+
+.cloud3{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    left: 20px;
+}
+
+.bird{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    left: 750px;
+}
+
+.bird2{
+    position: absolute;
+    top: 430px;
+    left: 350px;
+}
+
+.domik{
+    position: absolute;
+    top: 410px;
+    left: 700px;
+}
+
+.bug{
+    position: absolute;
+    top: 675px;
+    right: 100px;
+    left: 270px;
+}
+
+.tree{
+    position: absolute;
+    top: 125px;
+    transition: all 0.3s;
+}
+
+.tree2{
+    position: absolute;
+    top: 390px;
+    right: 100px;
+    bottom: 0px;
+    left: 1100px;
+}
+
+.rabbit{
+    position: absolute;
+    top: 645px;
+    right: 100px;
+    left: 1270px;
+}
+
+.rabbit2{
+    position: absolute;
+    top: 645px;
+    right: 100px;
+    left: 1150px;
+}
+
+.tree:hover{ /*Событие - наведение на элемент */
+    opacity: 0.7; /*прозрачность*/
+    transition: all 0.3s;
+}
