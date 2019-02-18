@@ -74,7 +74,7 @@
     left: 300px;
     top: 50px;
     transition: all 0.3s ease-in;
-    z-index: 20;
+    z-index: 10;
 }
 
 .cloud3{

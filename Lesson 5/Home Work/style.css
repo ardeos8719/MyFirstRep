@@ -1,0 +1,113 @@
+.warp{
+    width: 1024px;
+    height: auto;
+    background-image: url(background.jpg); 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    height: auto;
+    width: 294px;
+    padding: 10px;
+    margin: auto;
+    
+
+}
+
+.menu-gorizont{
+    position: relative;
+    width: 1024px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.button-gorizont{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000;
+    font-size: 16pt;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;    
+    background: rgb(243, 93, 23);
+    color: white;
+    margin: 5px;
+}
+
+.button-gorizont:hover{ /*Событие - наведение на элемент */
+    opacity: 0.5; /*прозрачность*/
+}
+
+.button-gorizont:active{ /*Событие - нажатие на элемент */
+    border-bottom: 5px solid rgb(80, 230, 11);
+}
+
+.menu-left{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.button-vertical{
+   
+    width: 150px;
+    height: auto;
+    border: 1px solid #000;
+    font-size: 16pt;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;    
+    background: rgb(61, 145, 241);
+    color: white;
+    margin: 5px;
+    
+}
+
+.button-vertical:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+
+.content{
+    width: 824px;
+    height: auto;
+    line-height: 20px;
+    text-align: justify;
+    position: relative;
+    margin: 0 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+a.dog{
+    background: url(dog.png);
+    width: 350px;
+    height: 200px;
+    display: block;
+    float: right;
+    margin: 0px 0px 0px 15px;
+
+}
+
+a.dog:hover{
+    background: url(dog2.jpg);
+    
+}
+
+
+

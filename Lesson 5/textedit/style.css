@@ -1,0 +1,51 @@
+.text{
+    width: 800px;
+    margin: 0 auto;
+    /*text-align: left; left, right, center*/
+    text-indent: 10px; /*отступ первого слова, число или процент*/
+    line-height: 1.5;  /*междустросчный интервал/
+    word-spacing: 2px; /*расстояние между словами*/
+    letter-spacing: 2px; /*расстояние между буквами*/
+    /*white-space: pre-line; запрет на перенос слов*/
+    text-transform: capitalize; /* первые буквы большие и так далее..
+    capitalize
+    uppercase
+    lowercase*/
+    /*direction: rtl;*/
+    /*text-decoration: line-through;*/
+    quotes: '\00AB' '\00BB' '\201E' '\201C';
+
+}
+
+.text img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.liner-gradient{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to top left, #000 20%, red 20%, blue 80%);
+     /*градусы
+     to top = 0deg
+        to right
+        to bottom
+        to left*/
+}
+
+.radial-gradient{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 65% 15%, rgb(32, 73, 207), rgb(255, 255, 255));
+     /*градусы
+     to top = 0deg
+        to right
+        to bottom
+        to left*/
+}
+
+.repeating{
+    height: 200px;
+    background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #79d410 20px);
+}
