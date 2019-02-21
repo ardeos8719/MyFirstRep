@@ -1,5 +1,7 @@
 .warp{
     width: 1024px;
+    /* class container
+    max-width*/
     height: auto;
     background-image: url(background.jpg); 
     margin-left: auto;
@@ -22,6 +24,7 @@
     text-align: center;
     padding: 5px;
     box-sizing: border-box;
+    
 }
 
 .button-gorizont{
@@ -36,6 +39,7 @@
     background: rgb(243, 93, 23);
     color: white;
     margin: 5px;
+    text-decoration: none;
 }
 
 .button-gorizont:hover{ /*Событие - наведение на элемент */
@@ -50,7 +54,8 @@
     width: 200px;
     height: auto;
     text-align: center;
-    position: absolute;
+    float: left;
+    /*position: absolute;*/
     padding: 10px;
     box-sizing: border-box;
     
@@ -68,12 +73,14 @@
     background: rgb(61, 145, 241);
     color: white;
     margin: 5px;
+    text-decoration: none;
     
 }
 
 .button-vertical:hover{
     transform: scale(1.1);
     transition: all 0.2s ease-in;
+    
 }
 
 .content{
@@ -81,7 +88,7 @@
     height: auto;
     line-height: 20px;
     text-align: justify;
-    position: relative;
+    /*position: relative;*/
     margin: 0 200px;
     padding: 10px;
     box-sizing: border-box;
@@ -111,3 +118,6 @@ a.dog:hover{
 
 
 
+/*
+float нужно обнулять
+*/

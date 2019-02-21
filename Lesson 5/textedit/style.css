@@ -1,3 +1,16 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
+</style>
+
+@font-face {
+    font-family: 'goma_cookie_g_cyrillicregular';
+    src: url('fonts/14646-webfont.woff2') format('woff2'),
+         url('fonts/14646-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .text{
     width: 800px;
     margin: 0 auto;
@@ -44,8 +57,37 @@
         to bottom
         to left*/
 }
-
+/*
 .repeating{
     height: 200px;
     background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #79d410 20px);
 }
+
+.radial{
+    border-radius: 15px; /*скругление углов
+    height: 200px;
+    background: repeating-radial-gradient(circle, #122bce, #122bce 10px, #465298 10px, #79d410 20px);
+}
+*/
+.border-image{
+    /*height: 200px;
+    border-style: solid;
+    border-image-width: 15px;
+    border-image-source: url(dot.png); 
+    border-image-slice: 100px;
+    border-image-repeat: stretch;*/
+
+    height: 500px;
+    border: 1px solid pink;
+    outline: 1px dashed grey;
+    outline-offset: -5px;
+    box-shadow: 32px 4px 14px 10px rgba(163, 216, 80, 0.84);
+}
+
+
+.border-image span{
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'goma_cookie_g_cyrillicregular';
+    font-weight: 700;
+}
+
