@@ -1,0 +1,29 @@
+.t1{
+    border: 1px solid #000;
+    width: 100%;
+    border-collapse: collapse; /*убирает расстояния между ячейками*/
+    color: #fff;
+    background: #000;
+}   
+.t1 caption{
+    background: green;
+}
+
+.t1 td{
+    border: 1px solid red;
+    width: 25%
+}
+
+
+
+.t1 tr td:first-child{ /*так можно задавать стили для колонок*/
+    background: purple;
+}
+
+.t1 tr td:nth-child(2){  /*все td которые вторые*/
+    background: grey;
+}
+
+.razbros{               /*не все показывает из-за низкого приоритета*/
+    background: tan;    
+}
