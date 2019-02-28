@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--
+        accept-charset="" - принимает кодировку 
+        action="ссылка" - ссылка на обработчик формы, возьмет данные введенные в форму и передаст в файл
+        action="" autocomplete="on/off" автодополнение введенных данных
+        enctype="" формат отправки данных 
+        method="" - метод отправки данных
+        novalidate - проверять поля или нет?
+    -->
+
+    <form action="mailto:ardeos87@gmail.com" autocomplete="on" method="POST" name="registration" target="_blank"> 
+        
+        <input type="text" />
+
+        <fieldset disabled name="contact">
+            <legend>Контактная информация:</legend>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+        </fieldset>
+
+        <input type="file" accept="audio/*" multiple>
+        <br>
+        <input type="text" name="name" pattern="[0-9]{3}" required>
+        <br>
+        <input type="checkbox" checked>
+        <br>
+        <input type="radio">
+        <br>
+        <input type="submit" formaction="/send.php" formenctype="" formmethod="post" formnovalidate size="3">
+        <br>
+        <input type="number" min="100" max="110" step="10">
+        <br>
+        <input type="email" placeholder="email" value="test@test.rr" readonly>
+        <br>
+        <input type="image" src="google.png" alt="гугл" />
+        <br>
+        <input type="password">
+        <br>
+        <input type="button" value="посчитать">
+        <br>
+        <input type="color">
+        <br>
+        <input type="date">
+ <!--
+        Input
+
+        accept - принимаются только типом file и передается тип принимаемых файлов
+        autofocus - берет в фокус при загрузке и ставит курсор в форму
+        disable - делает поле не активным    
+        formaction - переопределяет действие формы  
+        required - обязательное заполнение формы 
+        size принимает text search tel url email passwords         
+    -->
+
+
+    </form>
+ 
+   
+
+</body>
+</html>
+
+
+ <!--
+        
+    -->

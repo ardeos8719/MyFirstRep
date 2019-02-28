@@ -1,0 +1,23 @@
+.anketa{
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background: url(b.jpg);
+    color: white;
+    box-shadow: 9px 10px 34px -15px rgba(0,0,0,0.75);   
+}
+
+.zagolovok{
+    text-align: center;
+    color: rgb(241, 68, 0);
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.button{
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+}

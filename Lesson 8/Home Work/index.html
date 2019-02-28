@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Летим на Марс :)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form action="http://nickblack.pro/send.php" autocomplete="on" method="post" target="_blank">
+            <div class="zagolovok">Анкета участника экспедиции на Марс</div>
+            <br>
+    <fieldset class="anketa">
+        <Label>*Имя - <input type="text" name="fname" placeholder="Игорь" pattern="^[А-Яа-яЁё\s]+$" title="(Имя на русском языке)" required></Label>
+    <br>
+    <br>
+        <Label>Фамилия - <input type="text" name="sname" placeholder="Городницкий" pattern="^[А-Яа-яЁё\s]+$" title="(Фамилия на русском языке)"></Label>
+    <br>
+    <br>
+        <Label>Возраст - <input type="number" name="age" min="1" max="100"></Label>
+    <br>
+    <br>
+        <Label>Почта - <input type="email" name="mail" placeholder="name@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></Label>
+    <br>
+    <br>
+        <Label>Дата рождения - <input type="date" name="bday"></Label>
+    <br>
+    <br>
+        <Label>*Телефон - <input type="tel" name="phone" placeholder="+380501234567" pattern="\+38\s?[\(]{0,1}0[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" title="Пример +380501234567" required></Label>
+    <br>
+    <br>
+        <Label>Email получателя - <input type="email" name="mymail" required value="ardeos87@gmail.com" readonly></Label>
+    <br>
+    <br>
+    <input class="button" type="submit" formaction="http://nickblack.pro/send.php" formmethod="post" value="Отослать">
+    </fieldset>
+</body>
+</html>
