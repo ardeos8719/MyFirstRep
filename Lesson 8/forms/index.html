@@ -18,7 +18,7 @@
         novalidate - проверять поля или нет?
     -->
 
-    <form action="mailto:ardeos87@gmail.com" autocomplete="on" method="POST" name="registration" target="_blank"> 
+    <form action="mailto:ardeos87@gmail.com" autocomplete="on" method="POST" name="registration" target="_blank" id="aaa2"> 
         
         <input type="text" />
 
@@ -31,27 +31,90 @@
 
         <input type="file" accept="audio/*" multiple>
         <br>
+        <br>
         <input type="text" name="name" pattern="[0-9]{3}" required>
+        <br>
         <br>
         <input type="checkbox" checked>
         <br>
+        <br>
         <input type="radio">
+        <br>
         <br>
         <input type="submit" formaction="/send.php" formenctype="" formmethod="post" formnovalidate size="3">
         <br>
+        <br>
         <input type="number" min="100" max="110" step="10">
+        <br>
         <br>
         <input type="email" placeholder="email" value="test@test.rr" readonly>
         <br>
+        <br>
         <input type="image" src="google.png" alt="гугл" />
         <br>
+        <br>
         <input type="password">
+        <br>
         <br>
         <input type="button" value="посчитать">
         <br>
         <input type="color">
         <br>
+        <br>
         <input type="date">
+        <br>
+        <br>
+        <input type="datetime-local">
+        <br>
+        <br>
+        <input type="email" hidden> <!--hidden - скрывает поле-->
+        <br>
+        <br>
+        <input type="month">
+        <br>
+        <br>
+        <input type="range" max="100" min="0">
+        <br>
+        <br>
+        <input  type="reset">
+        <br>
+        <br>
+        <input  type="search">
+        <br>
+        <br>
+        <input type="time">
+        <br>
+        <br>
+        <input type="url">
+        <br>
+        <br>
+        <input type="week" value="2018-W09" >
+        <br>
+        <br>
+        <textarea rows="10" cols="10" maxlength="10" placeholder="10 symbol" wrap="hard">
+            111111111
+            2222222222
+            3333333333333
+        </textarea>
+        <!-- wrap hard - отправляет значение точь в точь как введено, обязательным условием является значение cols-->
+        <br>
+        <br>
+        <select autofocus multiple n`>
+            <optgroup disabled>
+                <option disa>Apple</option>
+                <option>LG</option>
+                <option>Samsung</option>
+            </optgroup>
+            <optgroup>
+                    <option value="232332">Apple</option>
+                    <option>LG</option>
+                    <option>Samsung</option>
+                    </optgroup>
+        </select>
+
+        <label for="text2">111</label>
+           <br>
+           <br>
  <!--
         Input
 
@@ -63,6 +126,81 @@
         size принимает text search tel url email passwords         
     -->
 
+    <label>
+        Чекбокс1
+        <input type="radio" name="rad">
+        <input type="radio" name="rad">
+        <input type="radio" name="rad">
+    </label>
+<br>
+        <label>
+            Чекбокс1
+            <input type="checkbox" name="rad" value="">
+            Чекбокс2
+            <input type="checkbox" name="rad" value="">
+            Чекбокс3
+            <input type="checkbox" name="rad" value="">
+        </label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </label>
+
+
 
     </form>
  
@@ -72,6 +210,4 @@
 </html>
 
 
- <!--
-        
-    -->
+ <!---->
