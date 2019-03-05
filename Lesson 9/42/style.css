@@ -1,0 +1,18 @@
+li{
+    list-style-type: none;
+    width: 150px;
+    border: 1px solid rgb(34, 48, 168);
+    padding: 2px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+li:hover~li:not(:last-child){
+    background: red;
+    color: white;
+}
+
+li:hover{
+    background: green;
+    color: white;
+}
