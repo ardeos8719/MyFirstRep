@@ -1,0 +1,21 @@
+.icon{
+    width: 200px;
+    height: 200px;
+    background: red;
+
+
+    animation-name: shadow;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+
+
+@keyframes shadow {
+    from {box-shadow: 0 0 3px black;}
+    50% {box-shadow: 0 0 30px black;}
+    to {box-shadow: 0 0 3px black;}
+    }
