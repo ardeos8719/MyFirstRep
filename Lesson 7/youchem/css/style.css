@@ -24,33 +24,26 @@ ul{
 
 /* Функциональные классы */
 
-.float-l{
-    float: left;
-}
-
-.float-r{
-    float: right;
-}
-
-.pos-rel{
-    position: relative;
-}
-
 /* Header */
 
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .header-logo{
     width: 390px;
 }
 .header-address{
-    width: 310px;
+   
     padding-left: 30px;
     margin-top: 24px;
     box-sizing: border-box;
 }
 .header-address:after{
     content: '';
-    width: 20px;
+   
     height: 25px;
     background: url(../img/map-i.png) no-repeat center center;
     position: absolute;
@@ -58,7 +51,7 @@ ul{
     top: 0;
 }
 .header-contact{
-    width: 335px;
+
     margin-top: 24px;
 }
 .header-contact-tel{
@@ -73,7 +66,6 @@ ul{
 }
 .header-contact-tel:after{
     content:'';
-    width: 20px;
     height: 19px;
     background: url(../img/phone-i.png) no-repeat center center;
     position: absolute;
@@ -90,7 +82,7 @@ ul{
 }
 .header-contact-mail:after{
     content:'';
-    width: 20px;
+
     height: 15px;
     background: url(../img/mail-i.png) no-repeat center center;
     position: absolute;
@@ -99,7 +91,7 @@ ul{
     margin-top: -7.5px;
 }
 .header-price{
-    width: 225px;
+
     margin-top: 24px;
 }
 .header-price a{
@@ -118,12 +110,9 @@ ul{
 
 .header-top{
     padding: 15px 0;
+    
 }
-.header-top:after{
-    content:'';
-    display: block;
-    clear: both;
-}
+
 
 .header-bottom{
     border-top: 1px solid #cbcccd;
@@ -140,7 +129,7 @@ ul{
     float: left;
     height: 69px;
     line-height: 69px;
-    min-width: 160px;
+  
     text-align: center;
     padding: 0 25px;
     box-sizing: border-box;
@@ -160,14 +149,17 @@ ul{
 .header-bottom-search{
     padding: 7px 0 8px;
 }
-.header-bottom-search form:after{
-    content: '';
-    display: block;
-    clear: both;
+
+.header-bottom-search form{
+    display: flex;
 }
+
+
+
+
 .header-bottom-search input[type="search"]{
     height: 52px;
-    width: 293px;
+
     background: #f1f2f4;
     border-radius: 3px 0 0 3px;
     box-shadow: none;
@@ -183,4 +175,10 @@ ul{
     border: 0;
     border-radius: 0 3px 3px 0;
     cursor: pointer;
+}
+
+@media screen and (max-width:865px){
+    .header-price{
+        margin: 0 auto;
+    }
 }

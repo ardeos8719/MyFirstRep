@@ -1,0 +1,66 @@
+.box{
+    
+    display: flex;
+    height: 200px;
+
+    flex-wrap: wrap;
+    /*
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    flex-wrap: wrap-reverse;
+    flex-flow: column wrap;
+
+    */
+
+    justify-content: flex-end; /* center,  */
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center; /* выровнять все по центру  */
+    align-items: baseline;
+    /*align-items: stretch;*/
+    align-content: flex-end;
+
+}
+
+.box-item{
+    border: 1px solid #000;
+    width: 300px;
+}
+  .box-item:nth-child(2){
+   align-self: flex-end;
+}
+
+
+
+
+/*
+.box-item:nth-child(2){
+    flex-grow: 3;
+
+    flex-shrink: 5;
+    flex-basis: 300px;
+
+}
+
+.box-item :nth-child(3){
+    flex-grow: 4;
+  }
+
+
+/*
+.box-item:nth-child(3){
+    order: 8;
+}
+
+.box-item:nth-child(4){
+    order: 1;
+}
+
+
+
+
+/*
+
+*/
